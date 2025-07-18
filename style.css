@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #001f3f;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: url('imagens/logo/logo01.jpg') center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.sobre1 {
+  background: url('imagens/barbeiro/alaelton02.jpg') center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px #000;
+}
+.servicos1 {
+  background: url('imagens/logo/fundo.jpg') center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px #000;
+}
+.barbeiro1 {
+  background: url('imagens/galeria/cliente07.jpg') center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px #000;
+}
+.galeria1 {
+  background: url('imagens/icones/fundo1.jpg') center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px #000;
+}
+.botao-acao {
+  background-color: #0074D9;
+  color:  white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.icones div {
+  display: inline-block;
+  margin: 20px;
+}
+
+.icones img {
+  width: 60px;
+}
+
+.barbeiro {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.barbeiro img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.galeria img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #0074D9;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  margin-top: 20px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: none;
+}
+
+.whatsapp img {
+  width: 50px;
+}
+footer {
+  background-color: #001f3f;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.instagram-link img {
+  width: 30px;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.instagram-link img:hover {
+  transform: scale(1.1);
+}
+
